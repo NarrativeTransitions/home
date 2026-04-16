@@ -4,21 +4,18 @@
   "homepage": ".",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
-    "antd": "^3.26.11",
-    "babel-plugin-import": "^1.13.0",
-    "node-sass": "^7.0.0",
-    "react": "^16.13.1",
-    "react-app-rewired": "^2.0.2-next.0",
-    "react-dom": "^16.13.1",
-    "react-pdf-js": "^5.1.0",
-    "react-scripts": "^3.4.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^12.1.5",
+    "@testing-library/user-event": "^13.5.0",
+    "ajv": "^8.17.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^5.0.1",
     "react-youtube-player": "^2.0.1",
-    "redux": "^4.0.5",
-    "sass-loader": "^8.0.2",
-    "video-react": "^0.14.1"
+    "redux": "^4.2.1",
+    "sass": "^1.77.8",
+    "sass-loader": "^13.3.3",
+    "video-react": "^0.16.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,28 +41,15 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^6.1.1"
   },
   "overrides": {
-    "ajv": "^6.14.0",
-    "@babel/helpers": "^7.28.6",
-    "@babel/runtime": "^7.28.0",
-    "bn.js": "^4.12.3",
-    "brace-expansion": "^1.1.12",
-    "elliptic": "^6.6.1",
-    "express": "^4.21.2",
-    "flatted": "^3.3.3",
-    "follow-redirects": "^1.16.0",
-    "http-proxy-middleware": "^2.0.7",
-    "immutable": "^4.3.7",
-    "lodash": "^4.17.21",
-    "lodash.template": "^4.18.1",
-    "node-forge": "^1.4.0",
-    "path-to-regexp": "^1.9.0",
-    "pbkdf2": "^3.1.5",
-    "picomatch": "^2.3.2",
-    "qs": "^6.13.0",
-    "url-parse": "^1.5.10",
-    "yaml": "^1.10.3"
+    "nth-check": "^2.1.1",
+    "postcss": "^8.4.47",
+    "serialize-javascript": "^6.0.2",
+    "svgo": "^3.3.2",
+    "underscore": "^1.13.7",
+    "http-proxy-agent": "^5.0.0",
+    "@tootallnate/once": "^2.0.0"
   }
 }
