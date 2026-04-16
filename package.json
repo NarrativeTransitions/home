@@ -45,5 +45,27 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"
+  },
+  "overrides": {
+    "ajv": "^6.14.0",
+    "@babel/helpers": "^7.28.6",
+    "@babel/runtime": "^7.28.0",
+    "bn.js": "^4.12.3",
+    "brace-expansion": "^1.1.12",
+    "elliptic": "^6.6.1",
+    "express": "^4.21.2",
+    "flatted": "^3.3.3",
+    "follow-redirects": "^1.16.0",
+    "http-proxy-middleware": "^2.0.7",
+    "immutable": "^4.3.7",
+    "lodash": "^4.17.21",
+    "lodash.template": "^4.18.1",
+    "node-forge": "^1.4.0",
+    "path-to-regexp": "^1.9.0",
+    "pbkdf2": "^3.1.5",
+    "picomatch": "^2.3.2",
+    "qs": "^6.13.0",
+    "url-parse": "^1.5.10",
+    "yaml": "^1.10.3"
   }
 }
